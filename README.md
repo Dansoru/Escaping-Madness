@@ -14,9 +14,9 @@
           
 - Puzles
       
- - Quest
+- Quest
 
- - Cinematicas
+- Cinematicas
       
 - Modelado de assets (Escenarios y personajes) 
   - Animaciones
@@ -25,12 +25,12 @@
 
 - Movimientos basicos
       
- - Diseño interfazes
+- Diseño interfazes
 
- - Cinematicas
+- Cinematicas
       
-  - Quest
+- Quest
   
-  - BETA COMPLETADA
+- BETA COMPLETADA
 
 _______________________________________________________________________  
