@@ -2,6 +2,7 @@
 
 <h3>Plan de trabajo</h3>
 
+
   - Diseños de conceptos
     - Escenario
     - Habitaciones
