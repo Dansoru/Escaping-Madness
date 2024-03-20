@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-
     public CharacterController controller;
     public GameObject playerCamera;
 
@@ -51,8 +50,8 @@ public class Movement : MonoBehaviour
 
         Vector3 move = transform.right * x + transform.forward * z;
 
-        // Reducir la velocidad si el personaje está agachado
-        float currentSpeed = isCrouching ? speed * 0.5f : speed; // Cambia el factor de reducción según lo desees
+        // Reducir la velocidad si el personaje estï¿½ agachado
+        float currentSpeed = isCrouching ? speed * 0.5f : speed;
         controller.Move(move * currentSpeed * Time.deltaTime);
 
         velocity.y += gravedad * Time.deltaTime;
