@@ -21,6 +21,8 @@ public class FPCamera: MonoBehaviour
         float ratonX = Input.GetAxis("Mouse X") * sensRaton * Time.deltaTime;
         float ratonY = Input.GetAxis("Mouse Y") * sensRaton * Time.deltaTime;
 
+        
+
         xRotation -= ratonY;
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
 
